@@ -34,5 +34,5 @@
 
 - shell:
     - [git submodule update --init --recursive, Installing submodules]
-    - [base16/gnome-terminal/base16-google.light.sh, Setup default settings for Gnome Terminal]
-    - [mkdir -p ~/src, Create source directory]
+#    - [base16/gnome-terminal/base16-google.light.sh, Setup default settings for Gnome Terminal]
+#    - [mkdir -p ~/src, Create source directory]
