@@ -6,6 +6,8 @@
 - link:
     # Bash Config
     ~/.bash_profile:
+    ~/.bashrc:
+      force: true
 
     # GIT
     ~/.gitconfig:
