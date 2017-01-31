@@ -1,0 +1,18 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ARM Assembly",
+		"C++11",
+		"C11",
+		"Clang Format",
+		"CTags",
+		"GitGutter",
+		"Package Control",
+		"Python PEP8 Autoformat",
+		"zz File Icons"
+	]
+}

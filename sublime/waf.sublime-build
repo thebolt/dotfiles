@@ -1,0 +1,16 @@
+{
+	"shell_cmd": "./waf",
+	"working_dir": "${project_path}",
+	"file_regex": "(\\S*?):(\\d+):(\\d+): (error.*)",
+
+	"variants": [
+		{
+			"name": "Clean",
+			"shell_cmd": "./waf clean"
+		},
+		{
+			"name": "Run tests",
+			"shell_cmd": "./waf --alltests"
+		}
+	]
+}

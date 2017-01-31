@@ -1,0 +1,5 @@
+{
+	"autocomplete": true,
+	"opts" : ["--languages=C,C++", "--exclude=.git", "--exclude=build", "--exclude=external"],
+	"extra_tag_files": [".gemtags", "tags", "/home/mos/system_ctags/eabi_system_tags"]
+}

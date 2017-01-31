@@ -1,0 +1,38 @@
+- defaults:
+    link:
+      relink: true
+      create: true
+
+- link:
+    # Bash Config
+    ~/.bash_profile:
+
+    # GIT
+    ~/.gitconfig:
+
+    # Sublime text stuff
+    ~/.config/sublime-text-3/Packages/base16:
+      create: true
+      path: base16/sublime
+    ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings:
+      force: true
+      path: sublime/Preferences.sublime-settings
+    ~/.config/sublime-text-3/Packages/User/Package Control.sublime-settings:
+      force: true
+      path: sublime/Package Control.sublime-settings
+    ~/.config/sublime-text-3/Packages/User/clang_format.sublime-settings: sublime/clang_format.sublime-settings
+    ~/.config/sublime-text-3/Packages/User/CTags.sublime-settings: sublime/CTags.sublime-settings
+    ~/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap: sublime/Default (Linux).sublime-keymap
+    ~/.config/sublime-text-3/Packages/User/GitGutter.sublime-settings: sublime/GitGutter.sublime-settings
+    ~/.config/sublime-text-3/Packages/User/restore_font_size.py: sublime/restore_font_size.py
+    ~/.config/sublime-text-3/Packages/User/waf.sublime-build: sublime/waf.sublime-build
+    ~/.config/sublime-text-3/Installed Packages/0_package_control_loader.sublime-package:
+      path: sublime/packages/0_package_control_loader.sublime-package
+    ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package:
+      path: sublime/packages/Package Control.sublime-package
+
+
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
+    - [base16/gnome-terminal/base16-google.light.sh, Setup default settings for Gnome Terminal]
+    - [mkdir -p ~/src, Create source directory]
