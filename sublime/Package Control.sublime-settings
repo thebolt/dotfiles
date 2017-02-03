@@ -5,14 +5,15 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"ARM Assembly",
+		"Boxy Theme",
 		"C++11",
 		"C11",
 		"Clang Format",
 		"CTags",
 		"GitGutter",
 		"Package Control",
-		"Python PEP8 Autoformat",
-		"zz File Icons"
+		"Python PEP8 Autoformat"
 	]
 }

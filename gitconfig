@@ -20,10 +20,10 @@
 	remote = green
 
 [color "diff"]
-	meta = yellow bold
-	frag = magenta bold
-	old = red bold
-	new = green bold
+	meta = yellow
+	frag = magenta
+	old = red
+	new = green
 
 [color "status"]
 	added = yellow
@@ -53,3 +53,6 @@
     filelog = log -u
     # Tags
     lasttag = describe --tags --abbrev=0
+
+    # Helpers
+    churn = "!f() { git --no-pager log --all --find-renames --find-copies --name-only --format='format:' \"$@\" | grep -v '^$' | sort | uniq -c | sort -nr | head; }; f"
