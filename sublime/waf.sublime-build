@@ -1,7 +1,7 @@
 {
 	"shell_cmd": "./waf",
 	"working_dir": "${project_path}",
-	"file_regex": "(\\S*?):(\\d+):(\\d+): (error.*)",
+	"file_regex": "(\\S*?):(\\d+):(\\d+): (?:fatal )?(error.*)",
 
 	"variants": [
 		{
