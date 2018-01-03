@@ -12,6 +12,14 @@
     # GIT
     ~/.gitconfig:
 
+    # GPG
+    ~/.gnupg/gpg.conf:
+      force: true
+      path: gnupg/gpg.conf
+    ~/.gnupg/gpg-agent.conf:
+      force: true
+      path: gnupg/gpg-agent.conf
+
     # Sublime text stuff
     ~/.config/sublime-text-3/Packages/base16:
       create: true
