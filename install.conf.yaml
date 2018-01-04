@@ -3,6 +3,11 @@
       relink: true
       create: true
 
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
+#    - [base16/gnome-terminal/base16-google.light.sh, Setup default settings for Gnome Terminal]
+#    - [mkdir -p ~/src, Create source directory]
+
 - link:
     # Bash Config
     ~/.bash_profile:
@@ -41,8 +46,10 @@
     ~/.config/sublime-text-3/Installed Packages/Package Control.sublime-package:
       path: sublime/packages/Package Control.sublime-package
 
-
-- shell:
-    - [git submodule update --init --recursive, Installing submodules]
-#    - [base16/gnome-terminal/base16-google.light.sh, Setup default settings for Gnome Terminal]
-#    - [mkdir -p ~/src, Create source directory]
+    # VSCode
+    ~/.config/Code/User/settings.json:
+      force: true
+      path: code/user/settings.json
+    ~/.config/Code/User/snippets:
+      force: true
+      path: code/user/snippets/
