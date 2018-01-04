@@ -7,6 +7,7 @@
 	[
 		"A File Icon",
 		"ARM Assembly",
+		"AutoPEP8",
 		"Boxy Theme",
 		"C++11",
 		"C11",
@@ -14,6 +15,7 @@
 		"CTags",
 		"GitGutter",
 		"Package Control",
+		"PlainTasks",
 		"Python PEP8 Autoformat"
 	]
 }

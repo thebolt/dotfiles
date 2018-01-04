@@ -16,8 +16,8 @@ HISTCONTROL=ignoreboth
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=1000
-HISTFILESIZE=2000
+HISTSIZE=10000
+HISTFILESIZE=200000
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -124,3 +124,4 @@ if [ -x /usr/bin/mint-fortune ]; then
 fi
 export SSH_AUTH_SOCK=~/.gnupg/S.gpg-agent.ssh
 
+[[ -f ~/.bash_profile_local ]] && . ~/.bash_profile_local
