@@ -9,4 +9,14 @@
     "workbench.colorTheme": "Default Light+",
     "workbench.editor.labelFormat": "short",
     "workbench.startupEditor": "newUntitledFile",
+    "breadcrumbs.enabled": true,
+    "files.associations": {
+        "*.ltx": "latex"
+    },
+    "[c]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "xaver.clang-format"
+    },
 }

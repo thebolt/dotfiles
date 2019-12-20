@@ -6,7 +6,7 @@
 
 [user]
 	name = Marten Svanfeldt
-	email = marten@intuitiveaerial.com
+	email = marten@newtonnordic.com
 
 [color]
 	ui = true
@@ -53,3 +53,4 @@
 
     # Helpers
     churn = "!f() { git --no-pager log --all --find-renames --find-copies --name-only --format='format:' \"$@\" | grep -v '^$' | sort | uniq -c | sort -nr | head; }; f"
+	root = rev-parse --show-toplevel
